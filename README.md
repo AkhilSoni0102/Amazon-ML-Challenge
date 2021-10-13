@@ -72,3 +72,8 @@ We used an undersampling method called stratified sampling.
 2. [Tf-IDF](https://machinelearningmastery.com/prepare-text-data-machine-learning-scikit-learn/)
 ## Different Word embedding techniques:
 [ord embedding techniques](https://medium.com/analytics-vidhya/text-classification-using-word-embeddings-and-deep-learning-in-python-classifying-tweets-from-6fe644fcfc81)
+
+## Support Vector Machine:
+    1. [Linear Kernel: Why is it recommended for text classification ?](https://www.svm-tutorial.com/2014/10/svm-linear-kernel-good-text-classification/)
+    2. [Naïve Bayes vs. SVM For Text Classification](https://medium.com/analytics-vidhya/na%C3%AFve-bayes-vs-svm-for-text-classification-c63478229c33)
+    3. [Which one is better: LinearSVC or SVC?](https://intellipaat.com/community/19783/which-one-is-better-linearsvc-or-svc)
