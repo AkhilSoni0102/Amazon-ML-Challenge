@@ -61,10 +61,11 @@ We used an undersampling method called stratified sampling.
 ## Why did you use stemming instead of lemmatization? 
 [Reference](https://monkeylearn.com/blog/text-cleaning/#:~:text=Stemming%2C%20the%20simpler,past%2C%20and%20indefinite.)
 #### Stemming:
-    It groups words by their root stem. This allows us to recognize that ‘jumping’ ‘jumps’ and ‘jumped’ are all rooted in the same verb (jump) and thus are referring to similar problems.
+    It groups words by their root stem. This allows us to recognize that ‘jumping’ ‘jumps’ and ‘jumped’ are all rooted in the same verb 
+    (jump) and thus are referring to similar problems.
 #### Lemmatization:
-    It groups words based on root definition, and allows us to differentiate between present, past, and indefinite.
-    In our case, we were given the product descriptions. Hence the present, past, or future doesn't have any significance.
+    - It groups words based on root definition, and allows us to differentiate between present, past, and indefinite.
+    - In our case, we were given the product descriptions. Hence the present, past, or future doesn't have any significance.
  
 ## Converting Tokenized words into numerical vectors:
 1. [Tf-IDF](https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089)
